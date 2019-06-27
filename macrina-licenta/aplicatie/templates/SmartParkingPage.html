@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="{{ url_for('static', filename='SmartParkingPage.css') }}" rel="stylesheet">
+
+
+   
+    
+</head>
+
+<body>
+
+    <div class="containerMain">
+
+        <div class="selectParkingLotDialog">
+        	
+            <h1 class="dialogTitle"> Selecteaza zona </h1>
+            <div class="text-center" style="opacity: 1;" >
+                <div class="dropdown btn-group">
+                    
+                    <button class="btn btn-default dropdown-toggle" type="button" class="button"
+                        data-toggle="dropdown">Verifica parcare
+                        <span class="caret"></span>
+                    </button>
+
+                    <ul class="dropdown-menu text-center">
+                        <li><a href="#">Copou</a></li>
+                        <li><a href="#">Tudor Vladimirescu</a></li>
+                        <li><a href="#">Pudu Rosu</a></li>
+                        <li><a href="#">Alexandru</a></li>
+                        <li><a href="#">Nicolina</a></li>
+                        <li><a href="#">Gara</a></li>
+                        <li><a href="#">Cug</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

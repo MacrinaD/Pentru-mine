@@ -1,1 +1,0 @@
-Name the difference between agile & v-model. (Please specify some roles and cycles for these)

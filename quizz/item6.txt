@@ -1,1 +1,0 @@
-Consider that you have found a defect in the form for the previous exercise. Create a bug report for it.

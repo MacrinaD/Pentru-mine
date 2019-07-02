@@ -10,10 +10,10 @@ while True:
         message = ( (xbee.wait_read_frame()))
         print(message)
 
-        f = open("data_out_file.out",'w')
-        #f.write(message)
-        json.dump(message,f)
-        f.close()
+        # f = open("data_out_file.out",'w')
+        # #f.write(message)
+        # json.dump(message,f)
+        # f.close()
     except KeyboardInterrupt:
         break
 

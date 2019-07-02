@@ -1,6 +1,10 @@
 
+
 #define trigPin 9
 #define echoPin 8
+#define echoPin 10
+#define echoPin 11
+#define echoPin 12
 float duration, distance;
 
 void setup() {

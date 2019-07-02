@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/Interface.css') }}" rel="stylesheet">
+  <meta http-equiv="refresh" content="3" >
+
+</head>
+	<body>
+		<div class="contentBackImage">
+			<div class="Park">
+				<div class=firstRow>
+					<div class="containImage">
+						{% if parcare[0] == 1 %}
+						<img  src="static/images/masina.jpg"  width="150" height="80">
+						{% else%}
+						<img  src="static/images/semn.png"  width="150" height="80">
+						{% endif %}
+					</div>
+					<div  class="containImage">
+						{% if parcare[1] == 1 %}
+						<img  src="static/images/masina.jpg" width="150" height="80">
+						{% else%}
+						<img  src="static/images/semn.png"  width="150" height="80">
+						{% endif %}
+					</div>
+					<div  class="containImage">
+						<img  src="static/images/semn.png"  width="80" height="80">
+					</div>
+				</div>
+				<div class="secondRow">
+					<div class="containImage">
+						<img  src="static/images/masina.jpg"  width="150" height="80">
+					</div>
+					<div class="containImage">
+						<img  src="static/images/masina.jpg" width="150" height="80">
+					</div>
+					<div class="containImage">
+						<img  src="static/images/semnInvalizi.jpg" alt="semnInvalizi" width="100" height="80">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

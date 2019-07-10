@@ -47,4 +47,4 @@ if __name__ == '__main__':
 	thread_serial_read.daemon = True
 	thread_serial_read.start()
 
-	app.run()
+	app.run(host='0.0.0.0')

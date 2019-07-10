@@ -35,6 +35,8 @@ def read_serial():
 			sys.stdout.flush()
 			parcare[0] = int(message[0])
 			parcare[1] = int(message[1])
+			parcare[2] = int(message[2])
+			parcare[3] = int(message[3])
 		except serial.serialutil.SerialException:
 			print ("ERROR")
 			sys.stdout.flush()
